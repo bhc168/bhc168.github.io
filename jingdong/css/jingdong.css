@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+body{
+    background-color: rgb(246, 246, 246);
+}
+a {
+    /*连接去掉下划线*/
+    text-decoration: none;
+}
+
+/*顶部广告*/
+#top {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 188, 1);
+}
+#top a {
+    display: block;
+    width: 1190px;
+    height: 80px;
+    margin: 0 auto;
+    background-image: url('../img/jdtop.jpg');
+}
+/*导航条*/
+#menu-bg {
+    width: 100%;    
+    height: 30px;
+    background-color: rgb(227, 228, 229);
+    border-bottom: 1px solid #ddd;
+}
+#menu-bg .menu {
+    width: 1190px;
+    height: 30px;
+    background-color: #67747d;
+    margin: 0 auto;
+}
+/*搜索区域*/
+#search-bg{
+    width: 1190px;
+    height: 140px;
+    margin: 0 auto;
+    background: #ccc;
+    position: relative;
+}
+#search-bg .logo{
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    top:-31px;
+    left: 0px;
+    background-color: white;
+    background-image: url('../img/logo.png');
+}
+/*banner区*/
+#banner-bg{
+    width: 1190px;
+    height: 480px;
+    margin: 0 auto;
+    background: #e9e9e9;
+}
+#banner-bg .left{
+    width: 190px;
+    height: 100%;
+    float: left;
+    background: #6e6568;
+}
+#banner-bg .middle{
+    width: 790px;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+    background: #bfbfbf;
+}
+#banner-bg .middle .m-top{
+    height: 340px;
+}
+#banner-bg .middle .m-left{
+    float: left;
+    width: 390px;
+    height: 130px;
+    margin-top: 10px;
+    background: orangered;
+}
+#banner-bg .middle .m-right{
+    margin-left: 10px;
+}
+#banner-bg .right{
+    width: 190px;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+    background: #fff;
+}
+/*秒杀区*/
+#miaosha{
+    width: 1190px;
+    margin: 10px auto 0;
+}
+#miaosha .top{
+    height: 55px;
+    color: white;
+    background-image: url('../img/miaosha1.png');
+}
+#miaosha .top .sprite-s2{
+    background: url('../img/sprite.png') no-repeat -194px -52px;
+    width: 26px;
+    height: 26px;
+    float: left;
+}
+#miaosha .top .sprite-clock{
+    width: 33px;
+    height: 39px;
+    background: olivedrab;
+    float: left;
+    background: url('../img/sprite.png') no-repeat 0 -40px;
+    margin: 9px 9px auto 6px; 
+}
+#miaosha .top .miaosha-font1{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 55px;
+    float: left;
+}
+#miaosha .top .miaosha-font2{
+    float: left;
+    color: white;
+    margin-left: 12px;
+    font-size: 14px;
+    line-height: 65px;
+    position: relative;
+}
+#miaosha .top .miaosha-font2 i{
+    width: 15px;
+    height: 16px;
+    position: absolute;
+    left: 130px;
+    top: 25px;
+    background: url('../img/sprite.png') no-repeat -154px -40px;
+}
+#miaosha .top .right{
+    float: right;
+    width: 270px;
+    height: 100%;
+    margin-right: 22px;
+}
+#miaosha .top .right span{
+    font-size: 14px;
+    line-height: 65px;
+    float: left;
+}
+#miaosha .top .right .clock{
+    width: 129px;
+    height: 37px;
+    color: #f90013;
+    float: left;
+    margin: 9px 7px auto;
+}
+#miaosha .top .right .clock .clock-1{
+    width: 35px;
+    height: 37px;
+    border-radius:3px;
+    background: #440106;
+    float: left;
+}
+#miaosha .top .right .clock .clock-1 .shijian{
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37px;
+    text-align: center;
+}
+#miaosha .top .right .dian{
+    width: 12px;
+    height: 37px;
+    float: left;
+    border-radius:0px;
+}
+#miaosha .top .right .dian .dian1{
+    width: 4px;
+    height: 4px;
+    background: #440106;
+    border-radius: 100%;
+    display: block;
+    margin: 13px auto;
+}
+#miaosha .top .right .dian .dian2{
+    margin: -8px auto;
+}
+#miaosha .bottom{
+    height: 225px;
+    background: #ccc;
+}
+/*shopList*/
+#shop-bg{
+    width: 1190px;
+    margin: 30px auto 0;
+    background: olive;
+}
+#shop-bg .shop1{
+    width: 390px;
+    height: 444px;
+    float: left;
+    background: #fff;
+}
+#shop-bg .shop2{
+    margin-left: 10px;
+}
